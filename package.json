@@ -1,5 +1,5 @@
 {
-  "name": "textvision-ocr-nuxt",
+  "name": "@devgertschi/textvision-ocr",
   "private": true,
   "type": "module",
   "scripts": {

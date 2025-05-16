@@ -5,7 +5,7 @@
       <OCRScanner />
     </main>
     <footer class="py-6 text-center text-gray-500 text-sm">
-      <p>&copy; {{ new Date().getFullYear() }} TextVision OCR. All rights reserved.</p>
+      <p>^'d {{ new Date().getFullYear() }} by devgertschi – with and without AI.</p>
     </footer>
   </div>
 </template>

@@ -7,7 +7,7 @@
       </div>
       <div class="ml-auto">
         <a 
-          href="https://github.com/your-username/textvision-ocr" 
+          href="https://github.com/devgertschi/textvision-ocr"
           target="_blank" 
           rel="noopener noreferrer"
           class="text-gray-600 hover:text-gray-900 text-sm font-medium"
