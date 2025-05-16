@@ -9,7 +9,7 @@
         imageUrl ? 'border-blue-200 bg-blue-50' : '',
         isProcessing ? 'opacity-50 pointer-events-none' : 'cursor-pointer'
       ]"
-      @click="imageUrl ? null : triggerFileInput"
+      @click="handleClick"
       @dragover.prevent="handleDragOver"
       @dragleave="handleDragLeave"
       @drop.prevent="handleDrop"
@@ -135,6 +135,12 @@ const handleDrop = (e) => {
       emit('imagePaste', url)
     }
   }
+}
+
+const handleClick = () => {
+	if (!props.imageUrl) {
+		triggerFileInput();
+	}
 }
 
 const triggerFileInput = () => {
