@@ -3,7 +3,9 @@
 		<div class="container mx-auto px-4 py-4 max-w-4xl flex items-center">
 			<div class="flex items-center space-x-2">
 				<ScanText class="h-7 w-7 text-blue-600" />
-				<h1 class="text-xl font-semibold text-gray-800">TextVision OCR</h1>
+				<h1 class="text-xl font-semibold text-gray-800">
+					<a href="https://gertschi.dev">gertschi.dev</a> | TextVision OCR
+				</h1>
 			</div>
 			<div class="ml-auto">
 				<a
